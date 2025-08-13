@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bhargavi & Avinash Wedding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-inner">
+            <h1 class="fade-title">Potti's and Gollavelli's</h1>
+            <p class="fade-sub">Bhargavi & Avinash</p>
+            <p class="fade-date">August 18, 2025</p>
+            <div class="countdown fade-countdown">
+                <div><span id="days">00</span><small>Days</small></div>
+                <div><span id="hours">00</span><small>Hours</small></div>
+                <div><span id="minutes">00</span><small>Minutes</small></div>
+                <div><span id="seconds">00</span><small>Seconds</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Invitation Video Section -->
+   <section class="invitation section">
+    <div class="invitation-content">
+        <div class="video-wrapper">
+            <div class="video-frame">
+                <video id="wedding-video" controls poster="./assests//placeholder.png" autoplay loop>
+                    <source src="./assests/wedding video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <button id="unmute-btn" class="unmute-btn">🔊 Unmute</button>
+            </div>
+        </div>
+        <div class="invitation-text">
+            <h2>You’re Invited!</h2>
+            <hr class="gold-divider">
+            <p>We would be delighted to have you join us on our special day to celebrate love, laughter, and happily ever after.</p>
+            <p><strong>Date:</strong> August 13, 2025</p>
+            <p><strong>Venue:</strong> Aahvanam Function Hall, Bhavanipuram, Vijayawada</p>
+            <p><strong>Dinner:</strong> 8:00 PM</p>
+            <p><strong>sumuhurtham:</strong> 3:23 AM </p>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Gallery -->
+    <section class="gallery section">
+        <h2>Our Memories</h2>
+        <div class="gallery-grid">
+            <img src="./assests/3.png" alt="Gallery 1">
+            <img src="./assests/4.png" alt="Gallery 4">
+            <img src="./assests/5.png" alt="Gallery 2">
+            <img src="./assests/6.png" alt="Gallery 3">
+        </div>
+    </section>
+
+<section class="location section">
+  <h2>Wedding Venue</h2>
+  <div class="venue-info">
+    <h3>Aahvanam Function Hall</h3>
+    <p>Bhavanpuram, Guntur, Andhra Pradesh</p>
+  </div>
+  <div class="location-media-container">
+    <div class="media-wrapper">
+      <div class="map-wrapper">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.8968683563116!2d80.59394057329395!3d16.53130342690592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ef36f66e2121%3A0xccb1eac37aaa60de!2sAahvanam%20Function%20Hall!5e0!3m2!1sen!2sin!4v1755049339801!5m2!1sen!2sin" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="Google Maps location of Aahvanam Function Hall">
+        </iframe>
+        <a href="https://maps.google.com/?q=Aahvanam+Function+Hall+Bhavanpuram" target="_blank" class="view-larger-map">
+          View larger map
+        </a>
+      </div>
+      <div class="video-wrapper">
+        <video src="./assests/video.mp4" controls autoplay loop muted></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer>
+        <p>Thank you for being a part of our journey ♥</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
