@@ -405,3 +405,85 @@ footer {
     padding: 4rem 2rem;
   }
 }
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    /* Stack invitation content vertically */
+    .invitation-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+    
+    /* Smaller hero heading */
+    .hero-inner h1 {
+        font-size: 2.4rem;
+        padding: 0 1rem;
+        line-height: 1.2;
+    }
+    
+    .hero-inner p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    /* Countdown stacked vertically */
+    .countdown {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
+        padding: 0 1rem;
+    }
+    
+    .countdown div {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        padding: 0.75rem 0;
+    }
+    
+    /* Video frame adjustments */
+    .video-frame video {
+        height: auto;
+        max-height: 40vh; /* limit video height on mobile */
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    /* RSVP form full width */
+    .rsvp-form {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    
+    /* Location section padding */
+    .location {
+        padding: 2rem 1rem;
+    }
+    
+    /* Media wrapper stacked */
+    .media-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    
+    /* Adjust map and video height for mobile */
+    .map-wrapper iframe,
+    .video-wrapper video {
+        height: 250px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+    .hero-inner h1 {
+        font-size: 2rem;
+    }
+    .invitation-text {
+        padding: 1.5rem 2rem;
+        font-size: 1rem;
+    }
+    .countdown span {
+        font-size: 1.4rem;
+    }
+}
